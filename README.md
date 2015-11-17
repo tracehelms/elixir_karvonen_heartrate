@@ -4,7 +4,7 @@ Calculates your target heart rate for exercise given your age and resting heart 
 ## Running In iex
 ```
 $ iex -S mix
-iex> Heartrate.CLI.main(["--age", "27", "--resting-pulse", "75"])
+iex> Heartrate.main(["--age", "27", "--resting-pulse", "75"])
 Age: 27, Resting Pulse: 75
 
 Intensity | Rate
