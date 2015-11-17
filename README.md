@@ -23,12 +23,8 @@ iex>
 
 ## Running From The Command Line
 
-Compile into a binary
-`$ mix escript.build`
-
-Run the script
-
 ```
+$ mix escript.build # compile the binary
 $ ./heartrate --age=27 --resting-pulse=65
 Age: 27, Resting Pulse: 65
 
@@ -43,3 +39,6 @@ Intensity | Rate
  90%      | 180.0
  95%      | 187.0
 ```
+
+## Running Tests
+Run tests with `$ mix test`.
